@@ -1,0 +1,50 @@
+.header {
+  height: 70px;
+  background-color: black;
+}
+
+.sidebar {
+  margin-top: 70px;
+  width: 15%;
+  height:100%;
+  background-color:rgb(233, 229, 229);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar__items {
+  padding-top: 20px;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.sidebar__items > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  margin-left: 15%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.email__list {
+  display: flex;
+  justify-content: center;
+}
+
+.email__list > .email__list__titles {
+  width: 30%;
+  padding-top: 10px;
+}
+
+.email__list > .email__list__items {
+  width: 70%;
+}
+
+.email__list__icons {
+  height: 20px !important;
+}

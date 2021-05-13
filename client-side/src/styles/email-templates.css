@@ -1,0 +1,46 @@
+.email__templates {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email__templates > .email__templates__titles {
+    width: 30%;
+    padding-top: 10px;
+  }
+  
+  .email__templates > .email__templates__items {
+    width: 70%;
+  }
+  
+  .email__list__icons {
+    height: 20px !important;
+  }
+
+  .template__form {
+    text-align: center;
+  }
+
+  .template__form > input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 350px;
+  }
+
+  .template__form > input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 350px;
+  }
+
+  .template__form > button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }

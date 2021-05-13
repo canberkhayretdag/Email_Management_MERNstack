@@ -1,0 +1,33 @@
+.auth__section {
+    text-align: center;
+}
+
+.auth__section > .auth__section__login {
+    margin-left: 33.3%;
+    width: 33.3%;
+    margin-top: 5%;
+    background-color: rgba(214, 219, 221, 0.911);
+    font-weight: 500;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.auth__section__input {
+    border: none;
+    border-bottom: 2px solid black;
+    height: 25px;
+}
+
+.auth__section__input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.auth__section__button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 25px;
+}

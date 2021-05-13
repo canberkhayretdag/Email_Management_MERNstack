@@ -1,0 +1,20 @@
+
+.email__list__input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.email__list__input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.lists-icons {
+    position: relative;
+    top: 5px;
+}
+
+.cursor__pointer {
+    cursor: pointer;
+}
+
